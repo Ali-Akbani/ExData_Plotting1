@@ -1,6 +1,6 @@
-#Set the working directory to where the repository is cloned
-baseDir <- "C:/Users/MA250250/Documents/Coursera/Exploratory Data Analysis/ExData_Plotting1"
-setwd( baseDir );
+#Make sure to set the working directory to where the repository is cloned
+
+baseDir <- getwd();
 
 source( file=paste(baseDir,"/scripts/read_data.R", sep="") );
 
@@ -21,3 +21,8 @@ hist(
     );
 
 dev.off();
+
+remove(inData);
+remove(baseDir);
+
+print("Plot1.png generated in /figures");

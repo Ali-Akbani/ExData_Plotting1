@@ -6,12 +6,7 @@
 if( !require(data.table, quietly=TRUE) )
   install.packages("data.table");
 
-#source( paste(baseDir,"/scripts/setup_env.R") );
-
 library(data.table);
-
-#Data downloaded from https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
-# on 7th May 2014
 
 #Read the column headers. This step is neccesary as I will be skipping rows to get to 
 #the target dates directly
@@ -45,3 +40,5 @@ inData <- as.data.frame(x=inData);
 
 #Cast the datetime character field into a POSIXlt datetime variable for use in plotting
 inData$DateTime <- strptime( inData$DateTime,format="%d/%m/%Y %T" );
+
+remove(header);
