@@ -61,20 +61,20 @@ The four plots created are as below.
 
 ### Plot 1
 
-![Plot1.png from Plot1.R](figure/Plot1.png) 
+![Plot1.png from Plot1.R](figure/plot1.png) 
 
 
 ### Plot 2
 
-![Plot2.png from Plot2.R](figure/Plot2.png) 
+![Plot2.png from Plot2.R](figure/plot2.png) 
 
 
 ### Plot 3
 
-![Plot3.png from Plot3.R](figure/Plot3.png) 
+![Plot3.png from Plot3.R](figure/plot3.png) 
 
 
 ### Plot 4
 
-![Plot4.png from Plot4.R](figure/Plot4.png) 
+![Plot4.png from Plot4.R](figure/plot4.png) 
 
